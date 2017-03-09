@@ -1,5 +1,7 @@
 # aca-maps
 
+![Preview](https://raw.githubusercontent.com/DallasMorningNews/embed_aca-acha-maps/master/preview.png)
+
 This is an embeddable graphic built using the [`dmninteractives` Yeoman generator](https://github.com/DallasMorningNews/generator-dmninteractives). It's designed to be embedded using [Pym.js](http://blog.apps.npr.org/pym.js/) as a responsive `iframe`.
 
 ## Requirements
@@ -32,7 +34,7 @@ This is an embeddable graphic built using the [`dmninteractives` Yeoman generato
 The below embed code can be pasted into a Serif "code block":
 
 ```html
-<div id="embed-aca-maps" class="embed-preview"></div>
+<div id="embed-aca-maps"></div>
 
 <script src="//pym.nprapps.org/pym.v1.min.js"></script>
 <script>new pym.Parent('embed-aca-maps', '//interactives.dallasnews.com/embeds/2017/aca-maps/', {})</script>
