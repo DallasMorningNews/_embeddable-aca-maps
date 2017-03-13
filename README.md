@@ -35,7 +35,6 @@ The below embed code can be pasted into a Serif "code block":
 
 ```html
 <div id="embed-aca-maps"></div>
-
 <script src="//pym.nprapps.org/pym.v1.min.js"></script>
 <script>new pym.Parent('embed-aca-maps', '//interactives.dallasnews.com/embeds/2017/aca-maps/', {})</script>
 ```
